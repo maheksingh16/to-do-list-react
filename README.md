@@ -1,74 +1,108 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# ✅ React To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive To-Do List application built using **React.js**. This application helps users organize daily tasks, track their progress, and manage completed activities with a clean and user-friendly interface.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Add Tasks:** Quickly add new tasks to your list.
+- **Complete Tasks:** Mark tasks as completed using checkboxes.
+- **Delete Tasks:** Remove tasks you no longer need.
+- **Filter Tasks:** View All, Active, and Completed tasks.
+- **Clear Completed:** Remove all completed tasks with one click.
+- **Local Storage:** Automatically saves tasks in the browser, so they remain available after refreshing the page.
+- **Responsive Design:** Simple interface that works on different screen sizes.
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Local Storage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
-### `npm test`
+```text
+todos-list/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── App.test.js
+│   ├── index.js
+│   ├── index.css
+│   └── ...
+│
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Installation and Setup
 
-### `npm run build`
+Follow these steps to run the project locally.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**1. Clone the repository**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/maheksingh16/to-do-list-react.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**2. Navigate to the project directory**
 
-### `npm run eject`
+```bash
+cd to-do-list-react
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**3. Install dependencies**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**4. Start the development server**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+**5. Open in your browser**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```text
+http://localhost:3000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧠 React Concepts Practiced
 
-### Code Splitting
+This project helped me practice the fundamentals of React, including:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Functional Components
+- React Hooks (`useState` and `useEffect`)
+- Event Handling (`onClick`, `onChange`, `onSubmit`)
+- Conditional Rendering
+- Rendering Lists using `map()`
+- Filtering Arrays using `filter()`
+- Managing State
+- Browser Local Storage
 
-### Analyzing the Bundle Size
+## 📸 Application Preview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+_Add a screenshot of your application here._
 
-### Making a Progressive Web App
+## 🎯 Project Objective
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The main objective of this project is to understand React fundamentals by building a practical task management application with interactive features and persistent data storage.
 
-### Advanced Configuration
+## 👩‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Mahek Singh**
 
-### Deployment
+- GitHub: [@maheksingh16](https://github.com/maheksingh16)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# to-do-list-react
->>>>>>> 9062a7e858d05594b0c343a90fdba41f84555daf
+⭐ If you like this project, feel free to explore the repository!
