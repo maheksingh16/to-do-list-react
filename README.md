@@ -89,9 +89,7 @@ This project helped me practice the fundamentals of React, including:
 - Managing State
 - Browser Local Storage
 
-## 📸 Application Preview
 
-_Add a screenshot of your application here._
 
 ## 🎯 Project Objective
 
